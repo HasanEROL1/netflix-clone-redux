@@ -45,8 +45,8 @@ VITE_BASE_URL=
 
 🎬
 
-![Demo GIF](https://user-images.githubusercontent.com/kullaniciAdi/demo.gif)
 
+![netflix](https://github.com/user-attachments/assets/0da8f6ca-4c92-4dd1-b4fb-dc9bef48d8a7)
 
 
 
