@@ -46,8 +46,9 @@ VITE_BASE_URL=
 🎬
 
 
-![netflix](https://github.com/user-attachments/assets/0da8f6ca-4c92-4dd1-b4fb-dc9bef48d8a7)
 
+
+![netflix-ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/c970f7a7-b3d7-4349-9fa0-322d7f9bdc84)
 
 
 
