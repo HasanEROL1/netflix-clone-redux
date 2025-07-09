@@ -22,22 +22,23 @@ Bu proje, React ve Redux kullanarak geliştirilmiş bir Netflix klonu uygulamas�
 </ul>
 
 
-📁 Ortam Değişkenleri (.env)
+📁 
+
+Ortam Değişkenleri (.env)
 Projeyi çalıştırmadan önce kök dizine bir .env dosyası oluşturmalısınız.
 Aşağıdaki adımları takip edebilirsiniz:
 
-bash
-Kopyala
-Düzenle
+  bash
+
 cp .env.example .env
+
 Oluşan .env dosyasını kendi API bilgilerinizle doldurun:
 
-env
-Kopyala
-Düzenle
-VITE_API_KEY=your_api_key_here
-VITE_BASE_URL=https://api.example.com
-.env dosyası .gitignore dosyası tarafından gizlendiği için GitHub’a yüklenmez.
+
+
+VITE_API_KEY=
+
+VITE_BASE_URL=
 
 
 ## Proje Görseli
