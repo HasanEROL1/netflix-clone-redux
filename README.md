@@ -48,7 +48,7 @@ VITE_BASE_URL=
 
 
 
-[netflix](netflix-redux.gif)
+![netflix](netflix-redux.gif)
 
 
 
