@@ -38,7 +38,7 @@ Oluşan .env dosyasını kendi API bilgilerinizle doldurun:
 
 VITE_API_KEY=https://www.themoviedb.org/ sitesinden alınan key
 
-VITE_BASE_URL=https://www.themoviedb.org/den alınan url
+VITE_BASE_URL=https://www.themoviedb.org/ den alınan url
 
 
 ## Proje Görseli
