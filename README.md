@@ -48,7 +48,7 @@ VITE_BASE_URL=
 
 
 
-[netflix-ezgif.com-gif-maker.webm](https://github.com/user-attachments/assets/9780ca05-766b-471a-b0cc-f2ed317aee14)
+[netflix](netflix-redux.gif)
 
 
 
