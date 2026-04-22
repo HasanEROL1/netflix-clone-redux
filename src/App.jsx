@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(getWatchList())
-  }, [])
+  }, [dispatch])
   return (
     <div className=' flex flex-col h-screen p-5 md:p-10 lg:px-15 xl:px-20'>
       <BrowserRouter>

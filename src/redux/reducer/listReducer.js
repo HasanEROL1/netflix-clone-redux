@@ -1,4 +1,5 @@
-import ActionTypes from "../actionTypes"
+// Reducer dosyasında bu şekilde düzeltmeyi dene:
+import * as ActionTypes from "../actionTypes";
 
 const initialState = {
     list: [],
@@ -21,12 +22,16 @@ const listReducer = (state = initialState, action) => {
             return { ...state, isLoading: false, error: null, list: action.payload }
 
         case ActionTypes.ADD_TO_LIST:
-            const updated = state.list.concat(action.payload)
-            return { ...state, list: updated }
+            {
+                const updated = state.list.concat(action.payload)
+                return { ...state, list: updated }
+            }
 
         case ActionTypes.REMOVE_FROM_LIST:
-            const filtred = state.list.filter((i) => i.id !== action.payload.id)
-            return { ...state, list: filtred }
+            {
+                const filtered = state.list.filter((i) => i.id !== action.payload.id)
+                return { ...state, list: filtered }
+            }
         default:
             return state
 

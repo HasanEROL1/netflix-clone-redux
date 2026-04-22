@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux'
 
 const Header = () => {
 
-    const { list } = useSelector((store) => store)
+    const list = useSelector((store) => store.list);
     return (
         <header className='mb-10 flex justify-between items-center'>
             <Link to="/">

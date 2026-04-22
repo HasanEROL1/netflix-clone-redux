@@ -11,7 +11,7 @@ export const getWatchList = () => async (dispatch) => {
             dispatch({ type: ActionTypes.LIST_SUCCESS, payload: res.data.results })
         )
         .catch((err) =>
-            dispatch({ type: ActionTypes.ActionTypes.LIST_ERROR, payload: err.message })
+            dispatch({ type: ActionTypes.LIST_ERROR, payload: err.message })
         )
 }
 
