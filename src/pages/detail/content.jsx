@@ -18,8 +18,8 @@ const Content = ({ movie }) => {
                         {movie.overview}
                     </p>
                     <div className='flex justify-center mt-2'>
-                        <span className="text-yellow-400 font-semibold text-xl-center">IMDB:</span>
-                        <span className="ml-2 font-extrabold text-gray-400 drop-shadow-sm text-md">
+                        <span className="text-yellow-400 font-semibold text-xl text-center">IMDB:</span>
+                        <span className="ml-2 my-1  font-extrabold text-gray-400 drop-shadow-sm text-md">
                             {movie.vote_average.toFixed(2)}
                         </span>
                     </div>

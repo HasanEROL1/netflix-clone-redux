@@ -1,13 +1,9 @@
-// Reducer dosyasında bu şekilde düzeltmeyi dene:
-import * as ActionTypes from "../actionTypes";
+import ActionTypes from "../actionTypes";
 
 const initialState = {
     list: [],
     isLoading: true,
     error: null,
-
-
-
 }
 const listReducer = (state = initialState, action) => {
     switch (action.type) {

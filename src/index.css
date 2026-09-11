@@ -9,6 +9,68 @@ body {
     min-height: 100vh;
 }
 
+.loader {
+    min-height: 240px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 18px;
+}
+
+.clapperboard {
+    width: min(260px, 80vw);
+    color: #252525;
+    font-family: monospace;
+    font-size: 12px;
+    transform: rotate(-3deg);
+}
+
+.clapperboard__top {
+    padding: 8px 12px;
+    background: #e6e6e6;
+    border: 3px solid #111;
+    font-weight: 700;
+    transform-origin: left bottom;
+    animation: clapper 1s ease-in-out infinite;
+}
+
+.clapperboard__body {
+    display: grid;
+    gap: 16px;
+    padding: 18px 14px;
+    background: #e6e6e6;
+    border: 3px solid #111;
+    border-top: 0;
+    text-align: center;
+}
+
+.clapperboard__body strong {
+    color: #e50914;
+    font-size: 24px;
+    letter-spacing: 2px;
+    animation: action-blink 0.9s steps(2, end) infinite;
+}
+
+.loader__text {
+    color: #e6e6e6;
+    font-size: 14px;
+}
+
+@keyframes clapper {
+    0%, 45%, 100% {
+        transform: rotate(0deg);
+    }
+    55%, 70% {
+        transform: rotate(-12deg);
+    }
+}
+
+@keyframes action-blink {
+    50% {
+        opacity: 0.25;
+    }
+}
+
 @layer components {
     .hero-btn {
         @apply py-2 px-4 bg-red-600 rounded transition hover:bg-red-700 min-w-[165px] flex items-center justify-center gap-2

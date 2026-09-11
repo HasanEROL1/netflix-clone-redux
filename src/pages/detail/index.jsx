@@ -26,7 +26,7 @@ const Detail = () => {
             .get(`/movie/${id}`, { params })
             .then((res) => setMovie(res.data))
             .catch((err) => setError(err.message))
-    }, [])
+    }, [id])
 
     if (error) return <Error info={error} />
     if (!movie) return <Loader />
